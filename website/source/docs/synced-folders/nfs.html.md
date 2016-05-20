@@ -19,9 +19,8 @@ can offer a solution. Vagrant has built-in support to orchestrate the
 configuration of the NFS server on the host and guest for you.
 
 <div class="alert alert-info">
-  <strong>Windows users:</strong> NFS folders do not work on Windows
-  hosts. Vagrant will ignore your request for NFS synced folders on
-  Windows.
+  <strong>Windows users:</strong> Use https://github.com/winnfsd/vagrant-winnfsd
+  which manages and adds support for NFS for Vagrant on Windows.
 </div>
 
 ## Prerequisites
